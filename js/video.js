@@ -8,6 +8,7 @@ window.addEventListener("load", function () {
     video.loop = false;
 	console.log("Loop is set to false")
     video.load();
+	// added thumbnail image
 	video.poster = "assets/thumbnail.jpg";
 });
 
